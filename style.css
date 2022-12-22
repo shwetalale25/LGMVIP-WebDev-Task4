@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic Sans MS:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Comic Sans MS', sans-serif; 
+}
+
+.calculator{
+  width: 306px;
+  height: 450px;
+  box-shadow: 4px 4px 40px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  background-color: #374151;
+
+  overflow: hidden;
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  font-size: 15px;
+  border: 2px solid rgb(0, 87, 128);
+  border-radius: 50%;
+  background-color: rgb(162, 160, 221);
+  cursor: pointer;
+}
+.button1{
+  width: 300px;
+  padding: 20px;
+  margin: 0 3px;
+  font-size: 15px;
+  border: 2px solid rgb(128, 0, 0);
+  border-radius: 9px;
+  background-color: rgb(221, 190, 160);
+  cursor: pointer;
+}
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.text-center{
+  text-align: center;
+}
+
+.bg-red{
+  background: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}

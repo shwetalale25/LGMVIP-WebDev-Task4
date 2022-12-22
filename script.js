@@ -1,9 +1,8 @@
-// Todo: Make M+ M- and MC functional
 let string = "";
 let button1 = document.querySelector('.button1');
 let buttons = document.querySelectorAll('.button');
 button1.addEventListener('click',(e)=>{
-  if(e.target.innerHTML == 'C'){
+  if(e.target.innerHTML == 'AC'){
     string = ""
     document.querySelector('input').value = string;
   }
